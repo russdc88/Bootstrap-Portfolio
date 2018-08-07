@@ -1,0 +1,58 @@
+.container-fluid {
+	background-color: #ffffff;
+	padding-top: 1%;
+	;
+}
+
+.headerMargin {
+	margin-bottom: 4%;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	padding-left: 7%;
+	margin-bottom: 0%;
+	padding-right: 7%;
+	color: white;
+	border-radius: 2%;
+}
+
+img {
+	width: 95%;
+	height: 90%;
+	float: left;
+}
+.container {
+	width: 75%;
+	background-color: #ffffff;
+	border-radius: 2%;
+}
+
+body {
+	background-image: url("../images/mekong-green.png");
+}
+
+h3 {
+	margin: 4% auto;
+}
+
+
+.bottomMargin {
+	margin-bottom: 10%;
+}
+
+.footer {
+
+}
+
+.bottomPadding {
+	padding-bottom: 5%;
+}
+
+.nav-link {
+	color: grey;
+}
+
+.nav-link:hover {
+	color: black;
+}
