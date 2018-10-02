@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Portfolio</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-	crossorigin="anonymous">
+	 crossorigin="anonymous">
 	<link rel="stylesheet" href="./assets/css/index.css">
 
 </head>
+
 <body>
-	<div class="container-fluid border-bottom headerMargin">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 text-center">
-					<h1>Russ Christensen</h1>
-				</div>
-				<div class="col-md-6">
-					<ul class="nav justify-content-center">
-						<li class="nav-item">
-							<a class="nav-link active" href="#">Active</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>	
-	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top mx-auto container-fluid mb-5">
+		<a class="navbar-brand pl-5" href="#">Russ Christensen</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+		 aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav float-right pl-">
+				<li class="nav-item ">
+					<a class="nav-link" href="index.html">Home
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact Me</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="portfolio.html">Portfolio</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 	<div class="container bottomPadding bottomMargin">
 		<div class="row">
@@ -42,26 +44,44 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3">
-				<a href="https://codepen.io/russdc88/full/rKeEgq" alt="Donut Survey webpage" target="_blank"><img src="./assets/images/Screen Shot 2018-07-27 at 6.30.54 PM.png" class="image"></a>
+				<a href="https://codepen.io/russdc88/full/rKeEgq" alt="Donut Survey webpage" target="_blank">
+					<img src="./assets/images/Screen Shot 2018-07-27 at 6.30.54 PM.png" class="image">
+				</a>
 				<p class="text-center">Donut Survey</p>
 			</div>
 			<div class="col-md-3">
-				<a href=""><img src="http://via.placeholder.com/250x250"></a>
-				<p class="text-center">Placeholder 1</p>
+				<a href="https://russdc88.github.io/TeamProjectRRC/mainPage.html" target="_blank">
+					<img src="./assets/images/Soda Guru logo.png">
+				</a>
+				<p class="text-center">Soda Guru(Currently under Construction)</p>
 			</div>
 			<div class="col-md-3">
-					<a href=""><img src="http://via.placeholder.com/250x250"></a>
-				<p class=" text-center">Placeholder 2</p>
+				<a href="https://russdc88.github.io/giftastic/" target="_blank">
+					<img src="./assets/images/New Girl Gif.png">
+				</a>
+				<p class=" text-center">NewGirl Gifs</p>
 			</div>
 			<div class="col-md-3">
-					<a href=""><img src="http://via.placeholder.com/250x250"></a>
+				<a href="https://russdc88.github.io/TriviaGame/" target="_blank">
+					<img src="./assets/images/LOTR.png">
+				</a>
 				<p class=" text-center">Placeholder 3</p>
 			</div>
 		</div>
 	</div>
-	
-		<div class="container-fluid text-center footer">
-		<footer>Copyright</footer>
-		</div>
+
+	<nav class="navbar fixed-bottom navbar-dark bg-dark">
+		
+		<a class ="navbar-brand pl-3" href="https://github.com/russdc88" target="_blank"><img src="./assets/images/GitHub-Mark-Light-32px.png" alt="Github Profile Page" ></a>
+
+		<a class="pl-5 navbar-brand" href="#">Copyright</a>
+
+		<a class="navbar-brand" href="https://www.linkedin.com/in/russdchristensen/" target="_blank"><img src="./assets/images/Logo-White-28px-R.png" alt="Github Profile Page" ></a>
+	</nav>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </html>

@@ -29,7 +29,8 @@ img {
 }
 
 body {
-	background-image: url("../images/mekong-green.png");
+	background-image: url("../images/cementWall.jpg");
+	background-size: 50%
 }
 
 h3 {
